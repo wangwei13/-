@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.textr{
+    float: right;
+}
+.textl{
+    float: left;
+}
+.username{
+    margin-right: 100px;
+}
+.logoname{
+    margin-left: 100px;
+}
+/*leftBar*/
+.leftBar{
+    width: 200px;
+    border: 1px solid #e7e7e7;
+    background: #f8f8f8;
+    border-radius: 4px;
+    margin: 50px 0 0 100px;
+}
+.leftBar div{
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-bottom: 1px solid #e7e7e7;
+    cursor: pointer;
+    color: #777;
+}
+.content{
+    display: none;
+    border: 1px solid #e7e7e7;
+    margin-left: 350px;
+    margin-top: -200px;
+}
+.productIn{
+    width: 50%;
+}
+.producltlist{
+    width: 70%;
+    overflow: hidden;
+    border: 0px;
+}
+.producltlist .item{
+    border: 1px solid #e7e7e7;
+}
+.listWrap, .introduceItem{
+    float: left;
+}
+.introduceItem{
+    width: 200px;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+.describe{
+    float: left;
+    max-width: 300px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.item{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.act{
+    float: right;
+    width: 150px;
+    margin-top: 60px;
+}
+.act input:last-of-type{
+    margin-left: 20px;
+}
+.listWrap{
+    height: 150px;
+}
+.listWrap img{
+    width: 200px;
+    height: 150px;
+}
+.margin-top{
+    margin-top: 20px;
+}
+textarea{
+    border: 1px solid #e7e7e7;
+}
+#file{
+    margin-top: 8px;
+}
+.showImage{
+    display: none;
+    width: 39%;
+    height: 200px;
+    margin: 20px 0 0 263px;
+}
+#showImage{
+    width: 100%;
+    height: 200px;
+}
+.intro{
+    border-radius: 3px;
+}
+.active{
+    border-right: 2px solid #777;
+}
+.isShow{
+    display: block;
+}
