@@ -60,7 +60,11 @@
 <div class="chatIn content">
 </div>
 <div class="producltlist content isShow">
-    <{foreach from=$jarr_obj item=$jarr}>
+    <{$d}>
+    <{if $arr|count eq 0}>
+    此页无数据
+    <{/if}>
+    <{foreach from=$arr item=$jarr}>
     <div class="item" >
         <div class="listWrap">
             <img src="../../../../image/<{$jarr.file}>" alt="">
@@ -86,6 +90,9 @@
         </div>
     </div>
     <{/foreach}>
-    <div id="paga"></div>
+    <ul class="pager">
+        <li id="pre"><a href="#">Previous</a></li>
+        <li id="next"><a href="#">Next</a></li>
+    </ul>
 </div>
 <{/if}>

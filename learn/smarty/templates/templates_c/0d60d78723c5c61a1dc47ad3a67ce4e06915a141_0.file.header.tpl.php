@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2017-04-07 08:42:53
+/* Smarty version 3.1.29, created on 2017-04-13 12:00:04
   from "D:\www\learn\smarty\templates\templates\header.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_58e734ed684063_26786198',
+  'unifunc' => 'content_58ef4c2403a475_52065850',
   'file_dependency' => 
   array (
     '0d60d78723c5c61a1dc47ad3a67ce4e06915a141' => 
     array (
       0 => 'D:\\www\\learn\\smarty\\templates\\templates\\header.tpl',
-      1 => 1491547294,
+      1 => 1492077312,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_58e734ed684063_26786198 ($_smarty_tpl) {
+function content_58ef4c2403a475_52065850 ($_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -34,8 +34,12 @@ function content_58e734ed684063_26786198 ($_smarty_tpl) {
 >
     <link rel="stylesheet" href="../../../../js/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../../../css/render.css">
+    <link rel="stylesheet" href="../../../../css/pagenation.css">
     <?php echo '<script'; ?>
  src="../../../../js/bootstrap/dist/js/bootstrap.min.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="../../../../js/extendPagination.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
  src="../../../../js/<?php echo $_smarty_tpl->tpl_vars['js']->value;?>

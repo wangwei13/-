@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2017-04-11 10:19:18
+/* Smarty version 3.1.29, created on 2017-04-13 12:23:57
   from "D:\www\learn\smarty\templates\templates\content.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_58ec9186c0df02_06554144',
+  'unifunc' => 'content_58ef51bdbea777_53319189',
   'file_dependency' => 
   array (
     '0887f29fa232bb595b28dd2615eb51842b4a5ded' => 
     array (
       0 => 'D:\\www\\learn\\smarty\\templates\\templates\\content.tpl',
-      1 => 1491898741,
+      1 => 1492079034,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_58ec9186c0df02_06554144 ($_smarty_tpl) {
+function content_58ef51bdbea777_53319189 ($_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['type']->value == "1") {?>
 <div class="productIn content">
     <form class="form-horizontal margin-top">
@@ -82,8 +82,13 @@ if ($_smarty_tpl->tpl_vars['type']->value == "1") {?>
 <div class="chatIn content">
 </div>
 <div class="producltlist content isShow">
+    <?php echo $_smarty_tpl->tpl_vars['d']->value;?>
+
+    <?php if (count($_smarty_tpl->tpl_vars['arr']->value) == 0) {?>
+    此页无数据
+    <?php }?>
     <?php
-$_from = $_smarty_tpl->tpl_vars['jarr_obj']->value;
+$_from = $_smarty_tpl->tpl_vars['arr']->value;
 if (!is_array($_from) && !is_object($_from)) {
 settype($_from, 'array');
 }
@@ -132,6 +137,10 @@ if ($__foreach_jarr_0_saved_item) {
 $_smarty_tpl->tpl_vars['jarr'] = $__foreach_jarr_0_saved_item;
 }
 ?>
+    <ul class="pager">
+        <li id="pre"><a href="#">Previous</a></li>
+        <li id="next"><a href="#">Next</a></li>
+    </ul>
 </div>
 <?php }
 }

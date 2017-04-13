@@ -8,9 +8,10 @@ var page = {
         self.addImage();
         self.save();
         self.handle();
-        self.productList();
+        // self.productList(2);
         self.change();
         self.delete();
+        self.render();
     },
     productIn: function () {
         $('#productIn').click(function(){
@@ -69,11 +70,31 @@ var page = {
             $(str).addClass('isShow');
         })
     },
-    productList:function(){
-        $('#producltlist').click(function () {
-
+    productList:function(page){
+        var url ="../controllor/admin.php?username=admin&page=" +page;
+        var currentPage = window.location.href.split('page=')[1];
+        if(currentPage != page){
+            window.location.href=url;
+        }else{
+            window.location.reload();
+        }
+    },
+    render:function () {
+        var url ="../controllor/admin.php?username=admin&page=" +page;
+        var currentPage = window.location.href.split('page=')[1];
+        var self = this;
+        $('#pre').click(function () {
+            if(currentPage == 1){
+                return;
+            }else{
+                currentPage = currentPage - 1;
+                self.productList(currentPage);
+            }
         });
-
+        $('#next').click(function () {
+            currentPage++;
+            self.productList(currentPage);
+        })
     },
     change:function () {
         $("input[id^='change']").click(function () {
@@ -81,13 +102,18 @@ var page = {
             var id = $(self).attr('id').replace(/change/ig,'');
             var data = {id:id};
             var url = "../controllor/change.php";
-            $.post(url,{'data':data},function (res) {
-                var res = JSON.parse(res);
-                $('#productId').val(res.productId);
-                $('#productName').val(res.productName);
-                $('#productIntro').val(res.productIntro);
-                $('#productPrice').val(res.productPrice);
-            });
+            $.ajax({
+                type:"POST",
+                url:url,
+                dataType: "json",
+                data:data,
+                success:function (res) {
+                    $('#productId').val(res.productId);
+                    $('#productName').val(res.productName);
+                    $('#productIntro').val(res.productIntro);
+                    $('#productPrice').val(res.productPrice);
+                }
+            })
             $('.producltlist').removeClass('isShow');
             $('.productIn').addClass('isShow');
         })
@@ -110,7 +136,7 @@ var page = {
             $('#productIn').removeClass('active');
             $('#producltlist').addClass('active');
         });
-    }
+    },
 }
 $(document).ready(function(){
     page.init();

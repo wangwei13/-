@@ -12,8 +12,7 @@ if (!$conn){
 $databaseName = 'user';
 $link = mysqli_select_db($conn,$databaseName);
 if(isset($_POST)){
-    $data = $_POST['data'];
-    $id = $data['id'];
+    $id = $_POST['id'];
     $sql = "select * from product where productId='$id'";
     $result = mysqli_query($conn,$sql);
     $row = mysqli_fetch_assoc($result);

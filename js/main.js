@@ -25,9 +25,9 @@ var page = {
                 }else{
                     alert('登录成功');
                     if (res.type == 0){
-                        window.location="../controllor/pageHome.php?userName="+data.username;
+                        window.location="../controllor/pageHome.php?userName="+data.username+"&page=1";
                     }else{
-                        window.location="../controllor/admin.php?userName="+data.username;
+                        window.location="../controllor/admin.php?userName="+data.username+"&page=1";
                     }
 
                 }
