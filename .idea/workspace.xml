@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afd877d0-8e1a-49c4-9cdf-0d7628fe4d61" name="Default" comment="" />
+    <list default="true" id="afd877d0-8e1a-49c4-9cdf-0d7628fe4d61" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllor/pageHome.php" afterPath="$PROJECT_DIR$/controllor/pageHome.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/render.css" afterPath="$PROJECT_DIR$/css/render.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/admin.js" afterPath="$PROJECT_DIR$/js/admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learn/smarty/templates/templates/content.tpl" afterPath="$PROJECT_DIR$/learn/smarty/templates/templates/content.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learn/smarty/templates/templates/homePage.tpl" afterPath="$PROJECT_DIR$/learn/smarty/templates/templates/homePage.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learn/smarty/templates/templates_c/0887f29fa232bb595b28dd2615eb51842b4a5ded_0.file.content.tpl.php" afterPath="$PROJECT_DIR$/learn/smarty/templates/templates_c/0887f29fa232bb595b28dd2615eb51842b4a5ded_0.file.content.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learn/smarty/templates/templates_c/df92ef2d2d02db1b205a1905df92f6690a9e0916_0.file.homePage.tpl.php" afterPath="$PROJECT_DIR$/learn/smarty/templates/templates_c/df92ef2d2d02db1b205a1905df92f6690a9e0916_0.file.homePage.tpl.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,46 +36,10 @@
       <file leaf-file-name="content.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learn/smarty/templates/templates/content.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1932">
-              <caret line="84" column="16" lean-forward="false" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controllor/admin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+            <state relative-caret-position="635">
+              <caret line="115" column="7" lean-forward="true" selection-start-line="115" selection-start-column="7" selection-end-line="115" selection-end-column="7" />
               <folding>
-                <marker date="1492079292710" expanded="true" signature="989:1010" ph="select * fro... product" />
-                <marker date="1492079292710" expanded="true" signature="1248:1311" ph="select * fro... product" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learn/smarty/templates/templates/header.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="48" lean-forward="false" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/admin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1426">
-              <caret line="88" column="18" lean-forward="false" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#39#0" expanded="false" />
-                <element signature="e#420#867#0" expanded="false" />
-                <element signature="e#1845#2198#0" expanded="false" />
-                <element signature="e#3905#4679#0" expanded="false" />
+                <element signature="n#div#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -75,55 +48,59 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2553">
-              <caret line="111" column="26" lean-forward="false" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllor/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pagenation.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/pagenation.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11431">
-              <caret line="499" column="40" lean-forward="false" selection-start-line="499" selection-start-column="40" selection-end-line="499" selection-end-column="40" />
+            <state relative-caret-position="-754">
+              <caret line="64" column="96" lean-forward="true" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="96" />
               <folding>
-                <element signature="e#0#40#0" expanded="false" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="extendPagination.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/extendPagination.js">
+      <file leaf-file-name="render.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/render.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="214">
+              <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllor/admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
               <folding>
-                <marker date="1485222885081" expanded="true" signature="1286:1293" ph="«" />
-                <marker date="1485222885081" expanded="true" signature="2081:2088" ph="»" />
+                <marker date="1492488252160" expanded="true" signature="989:1010" ph="select * fro... product" />
+                <marker date="1492488252160" expanded="true" signature="1248:1311" ph="select * fro... product" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllor/login.php">
+      <file leaf-file-name="render.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllor/render.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="552">
-              <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+              <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/admin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="164" column="37" lean-forward="true" selection-start-line="164" selection-start-column="37" selection-end-line="164" selection-end-column="37" />
               <folding>
-                <marker date="1491544958838" expanded="true" signature="381:460" ph="select type regist" />
+                <element signature="e#0#39#0" expanded="false" />
+                <element signature="e#457#904#0" expanded="false" />
+                <element signature="e#927#1857#0" expanded="false" />
+                <element signature="e#3103#3901#0" expanded="false" />
+                <element signature="e#3926#4700#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -132,9 +109,10 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="27" column="101" lean-forward="false" selection-start-line="27" selection-start-column="101" selection-end-line="27" selection-end-column="101" />
+            <state relative-caret-position="1012">
+              <caret line="140" column="12" lean-forward="true" selection-start-line="140" selection-start-column="12" selection-end-line="140" selection-end-column="12" />
               <folding>
+                <element signature="e#1107#1929#0" expanded="false" />
                 <element signature="e#1961#2160#0" expanded="false" />
                 <element signature="e#2191#2872#0" expanded="false" />
                 <element signature="e#2904#3079#0" expanded="false" />
@@ -186,10 +164,7 @@
         <option value="$PROJECT_DIR$/controllor/index.php" />
         <option value="$PROJECT_DIR$/learn/smarty/templates/templates/index.tpl" />
         <option value="$PROJECT_DIR$/learn/smarty/templates/templates/footer.tpl" />
-        <option value="$PROJECT_DIR$/learn/smarty/templates/templates/homePage.tpl" />
-        <option value="$PROJECT_DIR$/controllor/pageHome.php" />
         <option value="$PROJECT_DIR$/controllor/regist.php" />
-        <option value="$PROJECT_DIR$/css/render.css" />
         <option value="$PROJECT_DIR$/controllor/adminSave.php" />
         <option value="$PROJECT_DIR$/controllor/delete.php" />
         <option value="$PROJECT_DIR$/learn/smarty/templates/templates/leftBar.tpl" />
@@ -198,11 +173,14 @@
         <option value="$PROJECT_DIR$/controllor/change.php" />
         <option value="$PROJECT_DIR$/controllor/login.php" />
         <option value="$PROJECT_DIR$/controllor/render.php" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/learn/smarty/templates/templates/header.tpl" />
-        <option value="$PROJECT_DIR$/js/admin.js" />
-        <option value="$PROJECT_DIR$/learn/smarty/templates/templates/content.tpl" />
         <option value="$PROJECT_DIR$/controllor/admin.php" />
+        <option value="$PROJECT_DIR$/controllor/pageHome.php" />
+        <option value="$PROJECT_DIR$/learn/smarty/templates/templates/homePage.tpl" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/css/render.css" />
+        <option value="$PROJECT_DIR$/learn/smarty/templates/templates/content.tpl" />
+        <option value="$PROJECT_DIR$/js/admin.js" />
       </list>
     </option>
   </component>
@@ -324,6 +302,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -462,12 +454,12 @@
       <workItem from="1491877098457" duration="24889000" />
       <workItem from="1491963731830" duration="21958000" />
       <workItem from="1492051721712" duration="19014000" />
-      <workItem from="1492482522516" duration="635000" />
+      <workItem from="1492482522516" duration="13196000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187792000" />
+    <option name="totallyTimeSpent" value="200353000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -519,6 +511,7 @@
         <state relative-caret-position="552">
           <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
           <folding>
+            <element signature="e#1107#1929#0" expanded="false" />
             <element signature="e#1961#2160#0" expanded="false" />
             <element signature="e#2191#2872#0" expanded="false" />
             <element signature="e#2904#3079#0" expanded="false" />
@@ -591,6 +584,7 @@
         <state relative-caret-position="552">
           <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
           <folding>
+            <element signature="e#1107#1929#0" expanded="false" />
             <element signature="e#1961#2160#0" expanded="false" />
             <element signature="e#2191#2872#0" expanded="false" />
             <element signature="e#2904#3079#0" expanded="false" />
@@ -697,6 +691,7 @@
         <state relative-caret-position="598">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="27" />
           <folding>
+            <element signature="e#1107#1929#0" expanded="false" />
             <element signature="e#1961#2160#0" expanded="false" />
             <element signature="e#2191#2872#0" expanded="false" />
             <element signature="e#2904#3079#0" expanded="false" />
@@ -742,13 +737,6 @@
     <entry file="file://$USER_HOME$/Desktop/temp/temp/demo.php" />
     <entry file="file://$USER_HOME$/Desktop/temp/temp/temp1.php" />
     <entry file="file://$USER_HOME$/Desktop/temp/temp/date.php" />
-    <entry file="file://$PROJECT_DIR$/learn/smarty/templates/templates/index.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/learn/smarty/templates/templates/footer.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -790,21 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllor/pageHome.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/render.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllor/adminSave.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="805">
@@ -823,6 +796,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -833,20 +807,6 @@
           <folding>
             <marker date="1491898267974" expanded="true" signature="307:348" ph="DELETE FROM " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn/smarty/templates/templates/leftBar.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn/smarty/templates/templates/homePage.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -862,58 +822,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllor/render.php">
+    <entry file="file://$PROJECT_DIR$/learn/smarty/templates/templates/header.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="368">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2553">
-          <caret line="111" column="26" lean-forward="false" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllor/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllor/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-          <folding>
-            <marker date="1491544958838" expanded="true" signature="381:460" ph="select type regist" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" column="101" lean-forward="false" selection-start-line="27" selection-start-column="101" selection-end-line="27" selection-end-column="101" />
-          <folding>
-            <element signature="e#1961#2160#0" expanded="false" />
-            <element signature="e#2191#2872#0" expanded="false" />
-            <element signature="e#2904#3079#0" expanded="false" />
-            <element signature="e#3110#3756#0" expanded="false" />
-            <element signature="e#3790#4327#0" expanded="false" />
-            <element signature="e#4355#4744#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/pagenation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11431">
+        <state relative-caret-position="419">
           <caret line="499" column="40" lean-forward="false" selection-start-line="499" selection-start-column="40" selection-end-line="499" selection-end-column="40" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
@@ -932,42 +851,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learn/smarty/templates/templates/content.tpl">
+    <entry file="file://$PROJECT_DIR$/controllor/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1932">
-          <caret line="84" column="16" lean-forward="false" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1426">
-          <caret line="88" column="18" lean-forward="false" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
+        <state relative-caret-position="552">
+          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
           <folding>
-            <element signature="e#0#39#0" expanded="false" />
-            <element signature="e#420#867#0" expanded="false" />
-            <element signature="e#1845#2198#0" expanded="false" />
-            <element signature="e#3905#4679#0" expanded="false" />
+            <marker date="1491544958838" expanded="true" signature="381:460" ph="select type regist" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learn/smarty/templates/templates/header.tpl">
+    <entry file="file://$PROJECT_DIR$/controllor/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="48" lean-forward="false" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+        <state relative-caret-position="184">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllor/pageHome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+          <folding>
+            <marker date="1492488357544" expanded="true" signature="910:931" ph="select * fro... product" />
+            <marker date="1492488357544" expanded="true" signature="1170:1233" ph="select * fro... product" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllor/admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
+        <state relative-caret-position="414">
           <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
           <folding>
-            <marker date="1492079292710" expanded="true" signature="989:1010" ph="select * fro... product" />
-            <marker date="1492079292710" expanded="true" signature="1248:1311" ph="select * fro... product" />
+            <marker date="1492488252160" expanded="true" signature="989:1010" ph="select * fro... product" />
+            <marker date="1492488252160" expanded="true" signature="1248:1311" ph="select * fro... product" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllor/render.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="140" column="12" lean-forward="true" selection-start-line="140" selection-start-column="12" selection-end-line="140" selection-end-column="12" />
+          <folding>
+            <element signature="e#1107#1929#0" expanded="false" />
+            <element signature="e#1961#2160#0" expanded="false" />
+            <element signature="e#2191#2872#0" expanded="false" />
+            <element signature="e#2904#3079#0" expanded="false" />
+            <element signature="e#3110#3756#0" expanded="false" />
+            <element signature="e#3790#4327#0" expanded="false" />
+            <element signature="e#4355#4744#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/render.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/smarty/templates/templates/leftBar.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/smarty/templates/templates/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-754">
+          <caret line="64" column="96" lean-forward="true" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="96" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/smarty/templates/templates/homePage.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/smarty/templates/templates/content.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="115" column="7" lean-forward="true" selection-start-line="115" selection-start-column="7" selection-end-line="115" selection-end-column="7" />
+          <folding>
+            <element signature="n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="164" column="37" lean-forward="true" selection-start-line="164" selection-start-column="37" selection-end-line="164" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+            <element signature="e#457#904#0" expanded="false" />
+            <element signature="e#927#1857#0" expanded="false" />
+            <element signature="e#3103#3901#0" expanded="false" />
+            <element signature="e#3926#4700#0" expanded="false" />
           </folding>
         </state>
       </provider>

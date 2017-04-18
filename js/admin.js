@@ -4,19 +4,19 @@
 var page = {
     init: function () {
         var self = this;
-        self.productIn();
-        self.addImage();
-        self.save();
-        self.handle();
-        // self.productList(2);
-        self.change();
-        self.delete();
-        self.render();
-    },
-    productIn: function () {
-        $('#productIn').click(function(){
+        if(window.location.href.indexOf('admin') < 0){
+            self.handle();
+            self.productShow();
+        }else{
+            self.addImage();
+            self.save();
+            self.handle();
+            self.change();
+            self.delete();
+            self.render();
+        }
+        self.exit();
 
-        })
     },
     addImage:function () {
         $('#file').change(function () {
@@ -87,7 +87,7 @@ var page = {
             if(currentPage == 1){
                 return;
             }else{
-                currentPage = currentPage - 1;
+                currentPage--;
                 self.productList(currentPage);
             }
         });
@@ -137,6 +137,41 @@ var page = {
             $('#producltlist').addClass('active');
         });
     },
+    productShow: function (page) {
+        var username = window.location.href.split('=')[1];
+        username = username.split('&')[0];
+        var url ="../controllor/pageHome.php?username=" + username + "&page=" +page;
+        var currentPage = window.location.href.split('page=')[1];
+        var self = this;
+        $('#pre').click(function () {
+            if(currentPage == 1){
+                return;
+            }else{
+                currentPage--;
+                self.productShowList(currentPage);
+            }
+        });
+        $('#next').click(function () {
+            currentPage++;
+            self.productShowList(currentPage);
+        })
+    },
+    productShowList: function (page) {
+        var username = window.location.href.split('=')[1];
+        username = username.split('&')[0];
+        var url ="../controllor/pageHome.php?username=" + username + "&page=" +page;
+        var currentPage = window.location.href.split('page=')[1];
+        if(currentPage != page){
+            window.location.href=url;
+        }else{
+            window.location.reload();
+        }
+    },
+    exit: function () {
+        $('#exit').click(function () {
+            window.location="../index.html";
+        })
+    }
 }
 $(document).ready(function(){
     page.init();

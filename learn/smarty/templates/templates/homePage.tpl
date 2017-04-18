@@ -12,7 +12,7 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li><a href="#">我的信息</a></li>
-                        <li><a href="#">退出</a></li>
+                        <li id="exit"><a>退出</a></li>
                     </ul>
                 </li>
             </ul>

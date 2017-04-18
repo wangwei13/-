@@ -60,7 +60,6 @@
 <div class="chatIn content">
 </div>
 <div class="producltlist content isShow">
-    <{$d}>
     <{if $arr|count eq 0}>
     此页无数据
     <{/if}>
@@ -91,8 +90,53 @@
     </div>
     <{/foreach}>
     <ul class="pager">
-        <li id="pre"><a href="#">Previous</a></li>
-        <li id="next"><a href="#">Next</a></li>
+        <li id="pre"><a>Previous</a></li>
+        <li id="next"><a>Next</a></li>
     </ul>
 </div>
 <{/if}>
+<{if $type eq "0"}>
+<div class="product content marginTop isShow">
+    <{if $arr|count eq 0}>
+    此页无数据
+    <{/if}>
+    <{foreach from=$arr item=$jarr}>
+    <div class="productItemU">
+        <img src="../../../../image/<{$jarr.file}>" alt="">
+        <a id="detailbtn<{$jarr.productId}>" data-toggle="modal" data-target="#detail">详细信息</a>
+    </div>
+    <{/foreach}>
+    <ul class="pager paperSelf">
+        <li id="pre"><a>Previous</a></li>
+        <li id="next"><a>Next</a></li>
+    </ul>
+</div>
+<div class="note content marginTop"></div>
+<div class="chat content marginTop"></div>
+<{/if}>
+<div class="modal fade" id="detail" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form class="form-horizontal margin-top">
+                <div class="row">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">文玩名称:</label>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">文玩描述:</label>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">文玩价钱:</label>
+                        <span></span>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
