@@ -62,6 +62,10 @@ var page = {
     handle:function () {
         $('.leftBar div').on('click',function (e) {
             var self = this;
+            $('#productId').val('');
+            $('#productName').val('');
+            $('#productIntro').val('');
+            $('#productPrice').val('');
             $('.leftBar div').removeClass('active');
             $(self).addClass('active');
             var id = $(self).attr('id');

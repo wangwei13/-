@@ -103,7 +103,33 @@
     <{foreach from=$arr item=$jarr}>
     <div class="productItemU">
         <img src="../../../../image/<{$jarr.file}>" alt="">
-        <a id="detailbtn<{$jarr.productId}>" data-toggle="modal" data-target="#detail">详细信息</a>
+        <a id="detailbtn<{$jarr.productId}>" data-toggle="modal" data-target="#detail<{$jarr.productId}>">详细信息</a>
+    </div>
+    <div class="modal fade" id="detail<{$jarr.productId}>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form class="form-horizontal margin-top">
+                    <div class="row">
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">文玩名称:</label>
+                            <label class="control-label detailfont"><{$jarr.productName}></label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">文玩描述:</label>
+                            <label class="control-label detailfont"><{$jarr.productIntro}></label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">文玩价钱:</label>
+                            <label class="control-label detailfont"><{$jarr.productPrice}></label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
     <{/foreach}>
     <ul class="pager paperSelf">
@@ -113,30 +139,4 @@
 </div>
 <div class="note content marginTop"></div>
 <div class="chat content marginTop"></div>
-<{/if}>
-<div class="modal fade" id="detail" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <form class="form-horizontal margin-top">
-                <div class="row">
-                    <div class="form-group">
-                        <label class="col-sm-3 control-label">文玩名称:</label>
-                        <span></span>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="form-group">
-                        <label class="col-sm-3 control-label">文玩描述:</label>
-                        <span></span>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="form-group">
-                        <label class="col-sm-3 control-label">文玩价钱:</label>
-                        <span></span>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
+    <{/if}>
