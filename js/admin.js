@@ -7,6 +7,7 @@ var page = {
         if(window.location.href.indexOf('admin') < 0){
             self.handle();
             self.productShow();
+            self.map();
         }else{
             self.addImage();
             self.save();
@@ -170,6 +171,60 @@ var page = {
         }else{
             window.location.reload();
         }
+    },
+    map: function () {
+        $('#locateF').click(function () {
+            var self = this;
+            var username = window.location.href.split('userName=')[1];
+            var username = username.split('&')[0];
+            var data = {username:username};
+            var url = "../controllor/map.php";
+            $.ajax({
+                type:"POST",
+                url:url,
+                data:data,
+                success:function (data) {
+                    console.log(data['$xj']);
+                }
+            })
+        })
+        var friendMap  = echarts.init(document.getElementById('friendMap'));
+        option = {
+            tooltip: {
+                trigger: 'item',
+                formatter: function (data) {
+                    var str;
+                    if( isNaN(data.value) ){
+                        str = "共0人"
+                    }else{
+                        str="共" + data.value + "人"
+                    }
+                    return str;
+                }
+            },
+            series: [
+                {
+                    name: '中国',
+                    type: 'map',
+                    mapType: 'china',
+                    selectedMode : 'multiple',
+                    label: {
+                        normal: {
+                            show: true
+                        },
+                        emphasis: {
+                            show: true
+                        }
+                    },
+                    data:[
+                        {name:'广东', value:12, selected:true},
+                        {name:'北京', value:12, selected:true}
+                    ]
+                }
+            ]
+        };
+        friendMap.setOption(option);
+
     },
     exit: function () {
         $('#exit').click(function () {

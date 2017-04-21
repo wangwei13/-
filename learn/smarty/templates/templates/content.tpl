@@ -96,7 +96,7 @@
 </div>
 <{/if}>
 <{if $type eq "0"}>
-<div class="product content marginTop isShow">
+<div class="product content isShow">
     <{if $arr|count eq 0}>
     此页无数据
     <{/if}>
@@ -137,6 +137,28 @@
         <li id="next"><a>Next</a></li>
     </ul>
 </div>
-<div class="note content marginTop"></div>
-<div class="chat content marginTop"></div>
+<div class="note content"></div>
+<div class="chat content">
+    <div class="chatU">
+        <div class="form-group">
+            <input type="button" class="btn btn-default btn-info" value="发帖子">
+        </div>
+        <div class="form-group chatUItem">
+            <div class="itemL">
+                <div class="itemName">
+                    <h5>用户名</h5>
+                </div>
+                <div class="itemImg">
+                    <img src="../../../../image/defaultUser.jpg" alt="头像">
+                </div>
+            </div>
+            <div class="itemR">
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="locateF content">
+    <div class="map" id="friendMap"></div>
+</div>
     <{/if}>

@@ -137,3 +137,32 @@ textarea{
 .isShow{
     display: block;
 }
+.chatU{
+    width: 80%;
+    border: 1px solid #cccccc;
+}
+.chatUItem{
+    height: 200px;
+    border: 1px solid #1b6d85;
+}
+.itemL{
+    float: left;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+.itemR{
+    float: right;
+    margin-right: 40px;
+    width: 1000px;
+    height: 200px;
+    border: 1px solid #9B410E;
+}
+.locateF{
+    width: 70%;
+}
+.locateF .map{
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+}

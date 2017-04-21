@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="../../../../css/pagenation.css">
     <script src="../../../../js/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="../../../../js/extendPagination.js"></script>
+    <script src="../../../../js/echarts.min.js"></script>
+    <script src="../../../../js/china.js"></script>
     <script src="../../../../js/<{$js}>"></script>
 </head>
 <body>
